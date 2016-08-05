@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453921CEDB46BDC7AE43398F /* libPods-GUBaiSI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F39445618122AF62EFF79E /* libPods-GUBaiSI.a */; };
+		7844E1FA1D488FEE00943391 /* GYLLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E1F91D488FEE00943391 /* GYLLoginRegisterTextField.m */; };
+		7844E1FD1D48A5EE00943391 /* UITextField+GYLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E1FC1D48A5EE00943391 /* UITextField+GYLExtension.m */; };
+		7844E2001D49DD2900943391 /* GYLMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E1FF1D49DD2900943391 /* GYLMeCell.m */; };
+		7844E2041D49E8D500943391 /* GYLConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E2031D49E8D500943391 /* GYLConst.m */; };
+		7844E2071D49F00D00943391 /* GYLMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7844E2061D49F00D00943391 /* GYLMeFooterView.m */; };
+		786F5BF31D3DFB2600BABCEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 786F5BF21D3DFB2600BABCEE /* main.m */; };
+		786F5BF61D3DFB2600BABCEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 786F5BF51D3DFB2600BABCEE /* AppDelegate.m */; };
+		786F5BFC1D3DFB2600BABCEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786F5BFA1D3DFB2600BABCEE /* Main.storyboard */; };
+		786F5BFE1D3DFB2600BABCEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786F5BFD1D3DFB2600BABCEE /* Assets.xcassets */; };
+		786F5C0C1D3DFB2600BABCEE /* GUBaiSITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 786F5C0B1D3DFB2600BABCEE /* GUBaiSITests.m */; };
+		786F5C171D3DFB2600BABCEE /* GUBaiSIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 786F5C161D3DFB2600BABCEE /* GUBaiSIUITests.m */; };
+		786F5C3B1D3E0AFC00BABCEE /* GYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786F5C3A1D3E0AFC00BABCEE /* GYLTabBarController.m */; };
+		788598EE1D52D6D700E5FAB2 /* GYLTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 788598ED1D52D6D600E5FAB2 /* GYLTitleButton.m */; };
+		789907101D5318CB00B63EDA /* GYLAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7899070F1D5318CB00B63EDA /* GYLAllViewController.m */; };
+		789907131D5318DF00B63EDA /* GYLVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789907121D5318DF00B63EDA /* GYLVideoViewController.m */; };
+		789907161D5318F700B63EDA /* GYLVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789907151D5318F700B63EDA /* GYLVoiceViewController.m */; };
+		789907191D53190B00B63EDA /* GYLPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789907181D53190B00B63EDA /* GYLPictureViewController.m */; };
+		7899071C1D53191B00B63EDA /* GYLWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7899071B1D53191B00B63EDA /* GYLWordViewController.m */; };
+		78C98B861D51B632007C6502 /* NSString+GYLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C98B851D51B632007C6502 /* NSString+GYLExtension.m */; };
+		78C98B891D51B8F9007C6502 /* GYLClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C98B881D51B8F9007C6502 /* GYLClearCacheCell.m */; };
+		78CA47141D4F57E0005A072B /* GYLMeSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CA47131D4F57E0005A072B /* GYLMeSquareButton.m */; };
+		78DCF2941D50612E009F5B68 /* GYLMeWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DCF2921D50612E009F5B68 /* GYLMeWebViewController.m */; };
+		78DCF2951D50612E009F5B68 /* GYLMeWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78DCF2931D50612E009F5B68 /* GYLMeWebViewController.xib */; };
+		78F74B001D4F326B006EB1A4 /* GYLMeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F74AFF1D4F326B006EB1A4 /* GYLMeSquare.m */; };
+		78FAFEBD1D3F73B700EC1BDB /* GYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FAFEBC1D3F73B700EC1BDB /* GYLTabBar.m */; };
+		78FAFEC11D4059A900EC1BDB /* UIView+GYLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FAFEC01D4059A900EC1BDB /* UIView+GYLExtension.m */; };
+		78FAFEC41D40635E00EC1BDB /* GYLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FAFEC31D40635E00EC1BDB /* GYLNavigationController.m */; };
+		78FAFEC71D4065B800EC1BDB /* GYLEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FAFEC61D4065B800EC1BDB /* GYLEssenceViewController.m */; };
+		78FAFECA1D40697800EC1BDB /* GYLNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FAFEC91D40697800EC1BDB /* GYLNewViewController.m */; };
+		78FAFECD1D4069FE00EC1BDB /* GYLFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FAFECC1D4069FE00EC1BDB /* GYLFollowViewController.m */; };
+		78FAFED01D406B3F00EC1BDB /* GYLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FAFECF1D406B3F00EC1BDB /* GYLMeViewController.m */; };
+		78FAFED31D40977000EC1BDB /* GYLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FAFED21D40977000EC1BDB /* GYLSettingViewController.m */; };
+		78FAFED51D40D15D00EC1BDB /* GYLFollowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78FAFED41D40D15D00EC1BDB /* GYLFollowViewController.xib */; };
+		78FAFEDD1D40FDC100EC1BDB /* GYLLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FAFEDB1D40FDC100EC1BDB /* GYLLoginRegisterViewController.m */; };
+		78FAFEDE1D40FDC100EC1BDB /* GYLLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78FAFEDC1D40FDC100EC1BDB /* GYLLoginRegisterViewController.xib */; };
+		78FAFEE11D410EDD00EC1BDB /* GYLQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FAFEE01D410EDD00EC1BDB /* GYLQuickLoginButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		786F5C081D3DFB2600BABCEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 786F5BE61D3DFB2600BABCEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786F5BED1D3DFB2600BABCEE;
+			remoteInfo = GUBaiSI;
+		};
+		786F5C131D3DFB2600BABCEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 786F5BE61D3DFB2600BABCEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786F5BED1D3DFB2600BABCEE;
+			remoteInfo = GUBaiSI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C7A9384204FDA072B452800 /* Pods-GUBaiSI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GUBaiSI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GUBaiSI/Pods-GUBaiSI.debug.xcconfig"; sourceTree = "<group>"; };
+		7844E1F81D488FEE00943391 /* GYLLoginRegisterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLLoginRegisterTextField.h; sourceTree = "<group>"; };
+		7844E1F91D488FEE00943391 /* GYLLoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLLoginRegisterTextField.m; sourceTree = "<group>"; };
+		7844E1FB1D48A5EE00943391 /* UITextField+GYLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+GYLExtension.h"; sourceTree = "<group>"; };
+		7844E1FC1D48A5EE00943391 /* UITextField+GYLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+GYLExtension.m"; sourceTree = "<group>"; };
+		7844E1FE1D49DD2900943391 /* GYLMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLMeCell.h; sourceTree = "<group>"; };
+		7844E1FF1D49DD2900943391 /* GYLMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLMeCell.m; sourceTree = "<group>"; };
+		7844E2021D49E8D500943391 /* GYLConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLConst.h; sourceTree = "<group>"; };
+		7844E2031D49E8D500943391 /* GYLConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLConst.m; sourceTree = "<group>"; };
+		7844E2051D49F00D00943391 /* GYLMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLMeFooterView.h; sourceTree = "<group>"; };
+		7844E2061D49F00D00943391 /* GYLMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLMeFooterView.m; sourceTree = "<group>"; };
+		786F5BEE1D3DFB2600BABCEE /* GUBaiSI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUBaiSI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		786F5BF21D3DFB2600BABCEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		786F5BF41D3DFB2600BABCEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		786F5BF51D3DFB2600BABCEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		786F5BFB1D3DFB2600BABCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		786F5BFD1D3DFB2600BABCEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		786F5C021D3DFB2600BABCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786F5C071D3DFB2600BABCEE /* GUBaiSITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GUBaiSITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		786F5C0B1D3DFB2600BABCEE /* GUBaiSITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUBaiSITests.m; sourceTree = "<group>"; };
+		786F5C0D1D3DFB2600BABCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786F5C121D3DFB2600BABCEE /* GUBaiSIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GUBaiSIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		786F5C161D3DFB2600BABCEE /* GUBaiSIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUBaiSIUITests.m; sourceTree = "<group>"; };
+		786F5C181D3DFB2600BABCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786F5C391D3E0AFC00BABCEE /* GYLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLTabBarController.h; sourceTree = "<group>"; };
+		786F5C3A1D3E0AFC00BABCEE /* GYLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLTabBarController.m; sourceTree = "<group>"; };
+		786F5C3C1D3E291600BABCEE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		788598EC1D52D6D600E5FAB2 /* GYLTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLTitleButton.h; sourceTree = "<group>"; };
+		788598ED1D52D6D600E5FAB2 /* GYLTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLTitleButton.m; sourceTree = "<group>"; };
+		7899070E1D5318CB00B63EDA /* GYLAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLAllViewController.h; sourceTree = "<group>"; };
+		7899070F1D5318CB00B63EDA /* GYLAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLAllViewController.m; sourceTree = "<group>"; };
+		789907111D5318DF00B63EDA /* GYLVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLVideoViewController.h; sourceTree = "<group>"; };
+		789907121D5318DF00B63EDA /* GYLVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLVideoViewController.m; sourceTree = "<group>"; };
+		789907141D5318F700B63EDA /* GYLVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLVoiceViewController.h; sourceTree = "<group>"; };
+		789907151D5318F700B63EDA /* GYLVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLVoiceViewController.m; sourceTree = "<group>"; };
+		789907171D53190B00B63EDA /* GYLPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLPictureViewController.h; sourceTree = "<group>"; };
+		789907181D53190B00B63EDA /* GYLPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLPictureViewController.m; sourceTree = "<group>"; };
+		7899071A1D53191B00B63EDA /* GYLWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLWordViewController.h; sourceTree = "<group>"; };
+		7899071B1D53191B00B63EDA /* GYLWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLWordViewController.m; sourceTree = "<group>"; };
+		78C98B841D51B632007C6502 /* NSString+GYLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GYLExtension.h"; sourceTree = "<group>"; };
+		78C98B851D51B632007C6502 /* NSString+GYLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GYLExtension.m"; sourceTree = "<group>"; };
+		78C98B871D51B8F9007C6502 /* GYLClearCacheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLClearCacheCell.h; sourceTree = "<group>"; };
+		78C98B881D51B8F9007C6502 /* GYLClearCacheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLClearCacheCell.m; sourceTree = "<group>"; };
+		78CA47121D4F57E0005A072B /* GYLMeSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLMeSquareButton.h; sourceTree = "<group>"; };
+		78CA47131D4F57E0005A072B /* GYLMeSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLMeSquareButton.m; sourceTree = "<group>"; };
+		78DCF2911D50612E009F5B68 /* GYLMeWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLMeWebViewController.h; sourceTree = "<group>"; };
+		78DCF2921D50612E009F5B68 /* GYLMeWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLMeWebViewController.m; sourceTree = "<group>"; };
+		78DCF2931D50612E009F5B68 /* GYLMeWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GYLMeWebViewController.xib; sourceTree = "<group>"; };
+		78F74AFE1D4F326B006EB1A4 /* GYLMeSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLMeSquare.h; sourceTree = "<group>"; };
+		78F74AFF1D4F326B006EB1A4 /* GYLMeSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLMeSquare.m; sourceTree = "<group>"; };
+		78FAFEBB1D3F73B700EC1BDB /* GYLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GYLTabBar.h; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Main/View/GYLTabBar.h; sourceTree = "<group>"; };
+		78FAFEBC1D3F73B700EC1BDB /* GYLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GYLTabBar.m; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Main/View/GYLTabBar.m; sourceTree = "<group>"; };
+		78FAFEBF1D4059A900EC1BDB /* UIView+GYLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GYLExtension.h"; sourceTree = "<group>"; };
+		78FAFEC01D4059A900EC1BDB /* UIView+GYLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GYLExtension.m"; sourceTree = "<group>"; };
+		78FAFEC21D40635E00EC1BDB /* GYLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GYLNavigationController.h; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Main/Controller/GYLNavigationController.h; sourceTree = "<group>"; };
+		78FAFEC31D40635E00EC1BDB /* GYLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GYLNavigationController.m; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Main/Controller/GYLNavigationController.m; sourceTree = "<group>"; };
+		78FAFEC51D4065B800EC1BDB /* GYLEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GYLEssenceViewController.h; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Essence/Controller/GYLEssenceViewController.h; sourceTree = "<group>"; };
+		78FAFEC61D4065B800EC1BDB /* GYLEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GYLEssenceViewController.m; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Essence/Controller/GYLEssenceViewController.m; sourceTree = "<group>"; };
+		78FAFEC81D40697800EC1BDB /* GYLNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GYLNewViewController.h; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/New/Controller/GYLNewViewController.h; sourceTree = "<group>"; };
+		78FAFEC91D40697800EC1BDB /* GYLNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GYLNewViewController.m; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/New/Controller/GYLNewViewController.m; sourceTree = "<group>"; };
+		78FAFECB1D4069FE00EC1BDB /* GYLFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GYLFollowViewController.h; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Follow/Controller/GYLFollowViewController.h; sourceTree = "<group>"; };
+		78FAFECC1D4069FE00EC1BDB /* GYLFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GYLFollowViewController.m; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Follow/Controller/GYLFollowViewController.m; sourceTree = "<group>"; };
+		78FAFECE1D406B3F00EC1BDB /* GYLMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GYLMeViewController.h; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Me/Controller/GYLMeViewController.h; sourceTree = "<group>"; };
+		78FAFECF1D406B3F00EC1BDB /* GYLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GYLMeViewController.m; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Me/Controller/GYLMeViewController.m; sourceTree = "<group>"; };
+		78FAFED11D40977000EC1BDB /* GYLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GYLSettingViewController.h; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Me/Controller/GYLSettingViewController.h; sourceTree = "<group>"; };
+		78FAFED21D40977000EC1BDB /* GYLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GYLSettingViewController.m; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Me/Controller/GYLSettingViewController.m; sourceTree = "<group>"; };
+		78FAFED41D40D15D00EC1BDB /* GYLFollowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GYLFollowViewController.xib; path = ../../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Follow/View/GYLFollowViewController.xib; sourceTree = "<group>"; };
+		78FAFEDA1D40FDC100EC1BDB /* GYLLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLLoginRegisterViewController.h; sourceTree = "<group>"; };
+		78FAFEDB1D40FDC100EC1BDB /* GYLLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLLoginRegisterViewController.m; sourceTree = "<group>"; };
+		78FAFEDC1D40FDC100EC1BDB /* GYLLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GYLLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		78FAFEDF1D410EDD00EC1BDB /* GYLQuickLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYLQuickLoginButton.h; sourceTree = "<group>"; };
+		78FAFEE01D410EDD00EC1BDB /* GYLQuickLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYLQuickLoginButton.m; sourceTree = "<group>"; };
+		98F39445618122AF62EFF79E /* libPods-GUBaiSI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GUBaiSI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60B78A1D0FB1D296E223620 /* Pods-GUBaiSI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GUBaiSI.release.xcconfig"; path = "Pods/Target Support Files/Pods-GUBaiSI/Pods-GUBaiSI.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		786F5BEB1D3DFB2600BABCEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453921CEDB46BDC7AE43398F /* libPods-GUBaiSI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786F5C041D3DFB2600BABCEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786F5C0F1D3DFB2600BABCEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C8DD9A7EEBC609A4BA19677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98F39445618122AF62EFF79E /* libPods-GUBaiSI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B5881768A220EBBED09CA79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C7A9384204FDA072B452800 /* Pods-GUBaiSI.debug.xcconfig */,
+				F60B78A1D0FB1D296E223620 /* Pods-GUBaiSI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7844E2011D49E8C700943391 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				7844E2021D49E8D500943391 /* GYLConst.h */,
+				7844E2031D49E8D500943391 /* GYLConst.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		786F5BE51D3DFB2600BABCEE = {
+			isa = PBXGroup;
+			children = (
+				786F5BF01D3DFB2600BABCEE /* GUBaiSI */,
+				786F5C0A1D3DFB2600BABCEE /* GUBaiSITests */,
+				786F5C151D3DFB2600BABCEE /* GUBaiSIUITests */,
+				786F5BEF1D3DFB2600BABCEE /* Products */,
+				6B5881768A220EBBED09CA79 /* Pods */,
+				5C8DD9A7EEBC609A4BA19677 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		786F5BEF1D3DFB2600BABCEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				786F5BEE1D3DFB2600BABCEE /* GUBaiSI.app */,
+				786F5C071D3DFB2600BABCEE /* GUBaiSITests.xctest */,
+				786F5C121D3DFB2600BABCEE /* GUBaiSIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		786F5BF01D3DFB2600BABCEE /* GUBaiSI */ = {
+			isa = PBXGroup;
+			children = (
+				786F5C241D3E024700BABCEE /* Classes */,
+				786F5BF11D3DFB2600BABCEE /* Supporting Files */,
+			);
+			path = GUBaiSI;
+			sourceTree = "<group>";
+		};
+		786F5BF11D3DFB2600BABCEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				786F5BFA1D3DFB2600BABCEE /* Main.storyboard */,
+				786F5BFD1D3DFB2600BABCEE /* Assets.xcassets */,
+				786F5C021D3DFB2600BABCEE /* Info.plist */,
+				786F5C3C1D3E291600BABCEE /* PrefixHeader.pch */,
+				786F5BF21D3DFB2600BABCEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		786F5C0A1D3DFB2600BABCEE /* GUBaiSITests */ = {
+			isa = PBXGroup;
+			children = (
+				786F5C0B1D3DFB2600BABCEE /* GUBaiSITests.m */,
+				786F5C0D1D3DFB2600BABCEE /* Info.plist */,
+			);
+			path = GUBaiSITests;
+			sourceTree = "<group>";
+		};
+		786F5C151D3DFB2600BABCEE /* GUBaiSIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				786F5C161D3DFB2600BABCEE /* GUBaiSIUITests.m */,
+				786F5C181D3DFB2600BABCEE /* Info.plist */,
+			);
+			path = GUBaiSIUITests;
+			sourceTree = "<group>";
+		};
+		786F5C241D3E024700BABCEE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				786F5BF41D3DFB2600BABCEE /* AppDelegate.h */,
+				786F5BF51D3DFB2600BABCEE /* AppDelegate.m */,
+				78FAFED61D40FD8D00EC1BDB /* Others */,
+				786F5C251D3E024700BABCEE /* Essence */,
+				786F5C291D3E024700BABCEE /* Follow */,
+				786F5C2D1D3E024700BABCEE /* Main */,
+				786F5C311D3E024700BABCEE /* Me */,
+				786F5C351D3E024700BABCEE /* New */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		786F5C251D3E024700BABCEE /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				786F5C261D3E024700BABCEE /* Controller */,
+				786F5C271D3E024700BABCEE /* Model */,
+				786F5C281D3E024700BABCEE /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		786F5C261D3E024700BABCEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78FAFEC51D4065B800EC1BDB /* GYLEssenceViewController.h */,
+				78FAFEC61D4065B800EC1BDB /* GYLEssenceViewController.m */,
+				7899070E1D5318CB00B63EDA /* GYLAllViewController.h */,
+				7899070F1D5318CB00B63EDA /* GYLAllViewController.m */,
+				789907111D5318DF00B63EDA /* GYLVideoViewController.h */,
+				789907121D5318DF00B63EDA /* GYLVideoViewController.m */,
+				789907141D5318F700B63EDA /* GYLVoiceViewController.h */,
+				789907151D5318F700B63EDA /* GYLVoiceViewController.m */,
+				789907171D53190B00B63EDA /* GYLPictureViewController.h */,
+				789907181D53190B00B63EDA /* GYLPictureViewController.m */,
+				7899071A1D53191B00B63EDA /* GYLWordViewController.h */,
+				7899071B1D53191B00B63EDA /* GYLWordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		786F5C271D3E024700BABCEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		786F5C281D3E024700BABCEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				788598EC1D52D6D600E5FAB2 /* GYLTitleButton.h */,
+				788598ED1D52D6D600E5FAB2 /* GYLTitleButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		786F5C291D3E024700BABCEE /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				786F5C2A1D3E024700BABCEE /* Controller */,
+				786F5C2B1D3E024700BABCEE /* Model */,
+				786F5C2C1D3E024700BABCEE /* View */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		786F5C2A1D3E024700BABCEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78FAFECB1D4069FE00EC1BDB /* GYLFollowViewController.h */,
+				78FAFECC1D4069FE00EC1BDB /* GYLFollowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		786F5C2B1D3E024700BABCEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		786F5C2C1D3E024700BABCEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78FAFED41D40D15D00EC1BDB /* GYLFollowViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		786F5C2D1D3E024700BABCEE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7844E2011D49E8C700943391 /* Others */,
+				78FAFEBE1D40598200EC1BDB /* Category */,
+				786F5C2E1D3E024700BABCEE /* Controller */,
+				786F5C2F1D3E024700BABCEE /* Model */,
+				786F5C301D3E024700BABCEE /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		786F5C2E1D3E024700BABCEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				786F5C391D3E0AFC00BABCEE /* GYLTabBarController.h */,
+				786F5C3A1D3E0AFC00BABCEE /* GYLTabBarController.m */,
+				78FAFEC21D40635E00EC1BDB /* GYLNavigationController.h */,
+				78FAFEC31D40635E00EC1BDB /* GYLNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		786F5C2F1D3E024700BABCEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		786F5C301D3E024700BABCEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78FAFEBB1D3F73B700EC1BDB /* GYLTabBar.h */,
+				78FAFEBC1D3F73B700EC1BDB /* GYLTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		786F5C311D3E024700BABCEE /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				786F5C321D3E024700BABCEE /* Controller */,
+				786F5C331D3E024700BABCEE /* Model */,
+				786F5C341D3E024700BABCEE /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		786F5C321D3E024700BABCEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78FAFECE1D406B3F00EC1BDB /* GYLMeViewController.h */,
+				78FAFECF1D406B3F00EC1BDB /* GYLMeViewController.m */,
+				78FAFED11D40977000EC1BDB /* GYLSettingViewController.h */,
+				78FAFED21D40977000EC1BDB /* GYLSettingViewController.m */,
+				78DCF2911D50612E009F5B68 /* GYLMeWebViewController.h */,
+				78DCF2921D50612E009F5B68 /* GYLMeWebViewController.m */,
+				78DCF2931D50612E009F5B68 /* GYLMeWebViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		786F5C331D3E024700BABCEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78F74AFE1D4F326B006EB1A4 /* GYLMeSquare.h */,
+				78F74AFF1D4F326B006EB1A4 /* GYLMeSquare.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		786F5C341D3E024700BABCEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7844E1FE1D49DD2900943391 /* GYLMeCell.h */,
+				7844E1FF1D49DD2900943391 /* GYLMeCell.m */,
+				7844E2051D49F00D00943391 /* GYLMeFooterView.h */,
+				7844E2061D49F00D00943391 /* GYLMeFooterView.m */,
+				78CA47121D4F57E0005A072B /* GYLMeSquareButton.h */,
+				78CA47131D4F57E0005A072B /* GYLMeSquareButton.m */,
+				78C98B871D51B8F9007C6502 /* GYLClearCacheCell.h */,
+				78C98B881D51B8F9007C6502 /* GYLClearCacheCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		786F5C351D3E024700BABCEE /* New */ = {
+			isa = PBXGroup;
+			children = (
+				786F5C361D3E024700BABCEE /* Controller */,
+				786F5C371D3E024700BABCEE /* Model */,
+				786F5C381D3E024700BABCEE /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		786F5C361D3E024700BABCEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78FAFEC81D40697800EC1BDB /* GYLNewViewController.h */,
+				78FAFEC91D40697800EC1BDB /* GYLNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		786F5C371D3E024700BABCEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		786F5C381D3E024700BABCEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78FAFEBE1D40598200EC1BDB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				78FAFEBF1D4059A900EC1BDB /* UIView+GYLExtension.h */,
+				78FAFEC01D4059A900EC1BDB /* UIView+GYLExtension.m */,
+				7844E1FB1D48A5EE00943391 /* UITextField+GYLExtension.h */,
+				7844E1FC1D48A5EE00943391 /* UITextField+GYLExtension.m */,
+				78C98B841D51B632007C6502 /* NSString+GYLExtension.h */,
+				78C98B851D51B632007C6502 /* NSString+GYLExtension.m */,
+			);
+			name = Category;
+			path = ../../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Main/Category;
+			sourceTree = "<group>";
+		};
+		78FAFED61D40FD8D00EC1BDB /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				78FAFED71D40FD8D00EC1BDB /* Controller */,
+				78FAFED81D40FD8D00EC1BDB /* Model */,
+				78FAFED91D40FD8D00EC1BDB /* View */,
+			);
+			name = Others;
+			path = ../../../../../Workspace/App/GUBaiSI/GUBaiSI/Classes/Others;
+			sourceTree = "<group>";
+		};
+		78FAFED71D40FD8D00EC1BDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78FAFEDA1D40FDC100EC1BDB /* GYLLoginRegisterViewController.h */,
+				78FAFEDB1D40FDC100EC1BDB /* GYLLoginRegisterViewController.m */,
+				78FAFEDC1D40FDC100EC1BDB /* GYLLoginRegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78FAFED81D40FD8D00EC1BDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78FAFED91D40FD8D00EC1BDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78FAFEDF1D410EDD00EC1BDB /* GYLQuickLoginButton.h */,
+				78FAFEE01D410EDD00EC1BDB /* GYLQuickLoginButton.m */,
+				7844E1F81D488FEE00943391 /* GYLLoginRegisterTextField.h */,
+				7844E1F91D488FEE00943391 /* GYLLoginRegisterTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		786F5BED1D3DFB2600BABCEE /* GUBaiSI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786F5C1B1D3DFB2600BABCEE /* Build configuration list for PBXNativeTarget "GUBaiSI" */;
+			buildPhases = (
+				B58EAFBA30E94804773492B4 /* [CP] Check Pods Manifest.lock */,
+				786F5BEA1D3DFB2600BABCEE /* Sources */,
+				786F5BEB1D3DFB2600BABCEE /* Frameworks */,
+				786F5BEC1D3DFB2600BABCEE /* Resources */,
+				ADE4EDD935FE8C0CBE1A1CF8 /* [CP] Embed Pods Frameworks */,
+				B0FC5C964C06A3D3BE9FBBE2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GUBaiSI;
+			productName = GUBaiSI;
+			productReference = 786F5BEE1D3DFB2600BABCEE /* GUBaiSI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		786F5C061D3DFB2600BABCEE /* GUBaiSITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786F5C1E1D3DFB2600BABCEE /* Build configuration list for PBXNativeTarget "GUBaiSITests" */;
+			buildPhases = (
+				786F5C031D3DFB2600BABCEE /* Sources */,
+				786F5C041D3DFB2600BABCEE /* Frameworks */,
+				786F5C051D3DFB2600BABCEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				786F5C091D3DFB2600BABCEE /* PBXTargetDependency */,
+			);
+			name = GUBaiSITests;
+			productName = GUBaiSITests;
+			productReference = 786F5C071D3DFB2600BABCEE /* GUBaiSITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		786F5C111D3DFB2600BABCEE /* GUBaiSIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786F5C211D3DFB2600BABCEE /* Build configuration list for PBXNativeTarget "GUBaiSIUITests" */;
+			buildPhases = (
+				786F5C0E1D3DFB2600BABCEE /* Sources */,
+				786F5C0F1D3DFB2600BABCEE /* Frameworks */,
+				786F5C101D3DFB2600BABCEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				786F5C141D3DFB2600BABCEE /* PBXTargetDependency */,
+			);
+			name = GUBaiSIUITests;
+			productName = GUBaiSIUITests;
+			productReference = 786F5C121D3DFB2600BABCEE /* GUBaiSIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		786F5BE61D3DFB2600BABCEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GYL;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Recluse;
+				TargetAttributes = {
+					786F5BED1D3DFB2600BABCEE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 356HV56E32;
+					};
+					786F5C061D3DFB2600BABCEE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 786F5BED1D3DFB2600BABCEE;
+					};
+					786F5C111D3DFB2600BABCEE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 786F5BED1D3DFB2600BABCEE;
+					};
+				};
+			};
+			buildConfigurationList = 786F5BE91D3DFB2600BABCEE /* Build configuration list for PBXProject "GUBaiSI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 786F5BE51D3DFB2600BABCEE;
+			productRefGroup = 786F5BEF1D3DFB2600BABCEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				786F5BED1D3DFB2600BABCEE /* GUBaiSI */,
+				786F5C061D3DFB2600BABCEE /* GUBaiSITests */,
+				786F5C111D3DFB2600BABCEE /* GUBaiSIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		786F5BEC1D3DFB2600BABCEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FAFEDE1D40FDC100EC1BDB /* GYLLoginRegisterViewController.xib in Resources */,
+				78FAFED51D40D15D00EC1BDB /* GYLFollowViewController.xib in Resources */,
+				786F5BFE1D3DFB2600BABCEE /* Assets.xcassets in Resources */,
+				786F5BFC1D3DFB2600BABCEE /* Main.storyboard in Resources */,
+				78DCF2951D50612E009F5B68 /* GYLMeWebViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786F5C051D3DFB2600BABCEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786F5C101D3DFB2600BABCEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ADE4EDD935FE8C0CBE1A1CF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GUBaiSI/Pods-GUBaiSI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0FC5C964C06A3D3BE9FBBE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GUBaiSI/Pods-GUBaiSI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B58EAFBA30E94804773492B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		786F5BEA1D3DFB2600BABCEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F74B001D4F326B006EB1A4 /* GYLMeSquare.m in Sources */,
+				7844E1FD1D48A5EE00943391 /* UITextField+GYLExtension.m in Sources */,
+				78FAFEC41D40635E00EC1BDB /* GYLNavigationController.m in Sources */,
+				7844E1FA1D488FEE00943391 /* GYLLoginRegisterTextField.m in Sources */,
+				78FAFEE11D410EDD00EC1BDB /* GYLQuickLoginButton.m in Sources */,
+				788598EE1D52D6D700E5FAB2 /* GYLTitleButton.m in Sources */,
+				7844E2071D49F00D00943391 /* GYLMeFooterView.m in Sources */,
+				7844E2001D49DD2900943391 /* GYLMeCell.m in Sources */,
+				7899071C1D53191B00B63EDA /* GYLWordViewController.m in Sources */,
+				789907191D53190B00B63EDA /* GYLPictureViewController.m in Sources */,
+				786F5BF61D3DFB2600BABCEE /* AppDelegate.m in Sources */,
+				786F5BF31D3DFB2600BABCEE /* main.m in Sources */,
+				78CA47141D4F57E0005A072B /* GYLMeSquareButton.m in Sources */,
+				78FAFEBD1D3F73B700EC1BDB /* GYLTabBar.m in Sources */,
+				789907101D5318CB00B63EDA /* GYLAllViewController.m in Sources */,
+				789907131D5318DF00B63EDA /* GYLVideoViewController.m in Sources */,
+				78FAFEC11D4059A900EC1BDB /* UIView+GYLExtension.m in Sources */,
+				78C98B891D51B8F9007C6502 /* GYLClearCacheCell.m in Sources */,
+				78FAFED31D40977000EC1BDB /* GYLSettingViewController.m in Sources */,
+				78DCF2941D50612E009F5B68 /* GYLMeWebViewController.m in Sources */,
+				78FAFEC71D4065B800EC1BDB /* GYLEssenceViewController.m in Sources */,
+				78FAFECA1D40697800EC1BDB /* GYLNewViewController.m in Sources */,
+				78FAFEDD1D40FDC100EC1BDB /* GYLLoginRegisterViewController.m in Sources */,
+				786F5C3B1D3E0AFC00BABCEE /* GYLTabBarController.m in Sources */,
+				789907161D5318F700B63EDA /* GYLVoiceViewController.m in Sources */,
+				78C98B861D51B632007C6502 /* NSString+GYLExtension.m in Sources */,
+				78FAFECD1D4069FE00EC1BDB /* GYLFollowViewController.m in Sources */,
+				78FAFED01D406B3F00EC1BDB /* GYLMeViewController.m in Sources */,
+				7844E2041D49E8D500943391 /* GYLConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786F5C031D3DFB2600BABCEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786F5C0C1D3DFB2600BABCEE /* GUBaiSITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786F5C0E1D3DFB2600BABCEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786F5C171D3DFB2600BABCEE /* GUBaiSIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		786F5C091D3DFB2600BABCEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 786F5BED1D3DFB2600BABCEE /* GUBaiSI */;
+			targetProxy = 786F5C081D3DFB2600BABCEE /* PBXContainerItemProxy */;
+		};
+		786F5C141D3DFB2600BABCEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 786F5BED1D3DFB2600BABCEE /* GUBaiSI */;
+			targetProxy = 786F5C131D3DFB2600BABCEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		786F5BFA1D3DFB2600BABCEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				786F5BFB1D3DFB2600BABCEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		786F5C191D3DFB2600BABCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		786F5C1A1D3DFB2600BABCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		786F5C1C1D3DFB2600BABCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7A9384204FDA072B452800 /* Pods-GUBaiSI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = GUBaiSI/PrefixHeader.pch;
+				INFOPLIST_FILE = GUBaiSI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZJUT.GYL.GUBaiSI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		786F5C1D1D3DFB2600BABCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F60B78A1D0FB1D296E223620 /* Pods-GUBaiSI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = GUBaiSI/PrefixHeader.pch;
+				INFOPLIST_FILE = GUBaiSI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZJUT.GYL.GUBaiSI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		786F5C1F1D3DFB2600BABCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GUBaiSITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZJUT.GYL.GUBaiSITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GUBaiSI.app/GUBaiSI";
+			};
+			name = Debug;
+		};
+		786F5C201D3DFB2600BABCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GUBaiSITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZJUT.GYL.GUBaiSITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GUBaiSI.app/GUBaiSI";
+			};
+			name = Release;
+		};
+		786F5C221D3DFB2600BABCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GUBaiSIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZJUT.GYL.GUBaiSIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GUBaiSI;
+			};
+			name = Debug;
+		};
+		786F5C231D3DFB2600BABCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GUBaiSIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZJUT.GYL.GUBaiSIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GUBaiSI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		786F5BE91D3DFB2600BABCEE /* Build configuration list for PBXProject "GUBaiSI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786F5C191D3DFB2600BABCEE /* Debug */,
+				786F5C1A1D3DFB2600BABCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		786F5C1B1D3DFB2600BABCEE /* Build configuration list for PBXNativeTarget "GUBaiSI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786F5C1C1D3DFB2600BABCEE /* Debug */,
+				786F5C1D1D3DFB2600BABCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		786F5C1E1D3DFB2600BABCEE /* Build configuration list for PBXNativeTarget "GUBaiSITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786F5C1F1D3DFB2600BABCEE /* Debug */,
+				786F5C201D3DFB2600BABCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		786F5C211D3DFB2600BABCEE /* Build configuration list for PBXNativeTarget "GUBaiSIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786F5C221D3DFB2600BABCEE /* Debug */,
+				786F5C231D3DFB2600BABCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 786F5BE61D3DFB2600BABCEE /* Project object */;
+}
